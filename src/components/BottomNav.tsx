@@ -1,4 +1,3 @@
-import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { LayoutDashboard, Store, ClipboardList, User, Settings } from 'lucide-react';
 import { cn } from './ui';

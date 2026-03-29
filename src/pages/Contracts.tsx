@@ -1,7 +1,6 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Search, Filter, Plus, Clock, MapPin, DollarSign, ChevronRight, CheckCircle2 } from 'lucide-react';
-import { Button, Input, cn } from '../components/ui';
+import { Input, cn } from '../components/ui';
 import { BottomNav } from '../components/BottomNav';
 
 const TaskCard = ({ title, category, price, time, location, status }: any) => (

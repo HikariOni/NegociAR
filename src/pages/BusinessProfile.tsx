@@ -1,7 +1,6 @@
-import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowLeft, MessageCircle, Info, ShoppingBag, MapPin, Star, Share2, Heart, Clock, Phone, ChevronRight, Bookmark } from 'lucide-react';
-import { Button, cn } from '../components/ui';
+import { ArrowLeft, MessageCircle, Info, ShoppingBag, MapPin, Star, Heart, Clock, ChevronRight, Bookmark } from 'lucide-react';
+import { Button } from '../components/ui';
 import { useNavigate, useParams } from 'react-router-dom';
 
 const CatalogItem = ({ name, price, image }: any) => (
@@ -34,7 +33,7 @@ const QuickAction = ({ icon: Icon, label }: any) => (
 
 export const BusinessProfile = () => {
   const navigate = useNavigate();
-  const { id } = useParams();
+  useParams();
 
   // Mock data - syncing with design labels
   const business = {

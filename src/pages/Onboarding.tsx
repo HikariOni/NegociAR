@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronRight, ChevronLeft, Check, User, Store, Sparkles } from 'lucide-react';
+import { ChevronLeft, Check, User, Store } from 'lucide-react';
 import { Button } from '../components/ui';
 import { useNavigate } from 'react-router-dom';
 

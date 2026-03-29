@@ -1,7 +1,6 @@
-import React from 'react';
 import { motion } from 'framer-motion';
-import { TrendingUp, Users, DollarSign, MessageSquare, Menu, Search, Rocket, Sparkles, MoreHorizontal, ArrowUpRight, BarChart3, Target } from 'lucide-react';
-import { Button, cn } from '../components/ui';
+import { TrendingUp, Users, DollarSign, MessageSquare, Menu, Rocket, Sparkles, ArrowUpRight, BarChart3, Target } from 'lucide-react';
+import { Button } from '../components/ui';
 import { BottomNav } from '../components/BottomNav';
 
 const MetricCard = ({ title, value, change, icon: Icon, color = "primary" }: any) => (
